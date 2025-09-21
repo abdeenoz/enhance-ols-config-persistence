@@ -11,7 +11,7 @@ A robust script to apply overrides to OpenLiteSpeed's config and persist them on
 - Automatic backups to your OLS config before applying changes.
 - log file.
 - Retention for both logs and backups.
-- Adds a service to ensure the persistence works flawlessly after reboots.
+- Adds a systemd service to ensure the persistence works flawlessly after reboots.
 
 ### Installation
 Run:
@@ -22,4 +22,4 @@ After completing installation, add your custom overrides:
 Save, you are done!
 
 ### Uninstallation
-`bash /root/ols-config-persistence-install.sh uninstall`
+`sudo bash /root/ols-config-persistence-install.sh uninstall`
